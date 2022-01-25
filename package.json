@@ -1,27 +1,28 @@
 {
-  "name": "zoomcar-unit-4-practice",
+  "name": "new-zoomcar",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
+    "server": "nodemon src/server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Raosandeep007/zoomcar-unit-4-practice.git"
+    "url": "git+https://github.com/arundhathi6/new-zoomcar.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Raosandeep007/zoomcar-unit-4-practice/issues"
+    "url": "https://github.com/arundhathi6/new-zoomcar/issues"
   },
-  "homepage": "https://github.com/Raosandeep007/zoomcar-unit-4-practice#readme",
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.2",
-    "mongoose": "^6.1.7",
-    "redis": "^3.1.2"
-  }
+  "homepage": "https://github.com/arundhathi6/new-zoomcar#readme"
 }
